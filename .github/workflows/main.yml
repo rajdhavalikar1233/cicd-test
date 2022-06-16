@@ -23,3 +23,8 @@ jobs:
           files: 'application.yaml'
         env:
           metadata.namespace: "value1"
+        
+      - name: display_file  
+        run:
+          cat application.yaml
+          
