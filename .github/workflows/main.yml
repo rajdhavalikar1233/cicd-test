@@ -22,4 +22,4 @@ jobs:
         with:
           files: 'application.yaml'
         env:
-          namespace: "value1"
+          metadata.namespace: "value1"
